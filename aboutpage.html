@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script src="js/project.js" type="application/javascript"></script>
+	<title>About Us</title>
+</head>
+<div class="container1">
+This property was created to allow students as well as teachers to borrow books. Contact us below for any problems with the website.
+</div>
+<div class="container2">	<!-- Add the 2 logos at the tops and the inputs to be filled out along with the submit button-->
+    <img id="logo" class="small" src="img/ProjectU2-M-anim.gif" alt="Default placeholder image till user uploads one" align ="right">
+    <img id="logo" class="small" src="img/ProjectU2-M-anim.gif" alt="Default placeholder image till user uploads one" align ="left">
+    <h1 align="center">Contact Us</h1>
+	
+         <form action="addEmailQuery.php" method="post">
+    <ul class="information">
+		<li>
+			<label for="firstname"><font color="silver">First Name</font></label>
+			<input type="text" name="firstname" id="firstname" placeholder="Enter your first name here" required />
+		</li>
+		<li>
+			<label for="lastname"><font color="silver">Last Name</font></label>
+			<input type="text" name="lastname" id="lastname" placeholder="Enter your last name here" required />
+		</li>
+		<li>
+			<label for="email"><font color="silver">Email</font></label>
+			<input type="email" name="email" id="email" placeholder="Enter your email here" required />
+		</li>
+		<li>
+        <label for="question"><font color="silver">Questions</font></label>
+			<textarea name="question" id="question" placeholder="Please provide your query" required></textarea>
+		</li>
+	<button type="submit" class="linkButton">Submit</button>
+    </ul>
+	</form>
+	<!-- First create the orange box from the bottom right of the screen and translate it to it's final position, then layer the information text on top of it,
+		followed by the homepage "button's" background, then the href text over it. -->
+</div>
+
+<div class ="container1">
+ <footer id="dropzone">
+        <p>This website is optimized for accessing the school's library database. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.
+		Copyright by Falodun. All Rights Reserved. Powered by a chincilla on a wheel.</p>
+</footer>
+</div>

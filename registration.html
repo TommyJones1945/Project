@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Registration</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src="js/project.js" type="application/javascript"></script>
+</head>
+<div class="container2">
+  <img id="logo" class="large" src="img/ProjectU2-L-anim.gif" alt="projectU logo" align ="right" />
+  <img id="logo" class="large" src="img/ProjectU2-L-anim.gif" alt="projectU logo" align ="left" />
+  <form action="addAccount.php" method="post"> <!--This is the form handler that should perform an operation on the information received to load it into the database.-->
+    <ul class="information">
+		<li>
+			<label for="first-name"><font color="silver">First Name</font></label>
+			<input type="text" name="firstname" id="firstname" placeholder="Enter your first name" required />
+		</li>
+		<li>
+			<label for="last-name"><font color="silver">Last Name</font></label>
+			<input type="text" name="lastname" id="lastname" placeholder="Enter your last name" required />
+		</li>
+		<li>
+			<label for="username"><font color="silver">Username</font></label>
+			<input type="text" name="username" id="username" placeholder="Enter your username" required />
+		</li>
+		<li>
+			<label for="email"><font color="silver">Email</font></label>
+			<input type="email" name="email" id="email" placeholder="Enter your email" required />
+		</li>
+		<li>
+			<label for="email"><font color="silver">Password</font></label>
+			<input type="password" name="password" id="password" placeholder="Enter your password" required />
+		</li>
+		<li>
+		<a href="homepage.html" class="linkButton">HomePage</a>
+		<button type="submit" class="linkButton">Submit</button>
+		</li>
+    </ul>
+  </form>
+</div>
+<div class="container1">    
+  <footer id="dropzone">
+        <p>This website is optimized for accessing the school's library database. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.
+		Copyright by Falodun. All Rights Reserved. Powered by a chincilla on a wheel.</p>
+      </footer>
+</div>
+</html>
